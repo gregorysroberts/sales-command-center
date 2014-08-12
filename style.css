@@ -1,0 +1,156 @@
+body, h1, h2, h3, h4, h5, h6, p, li, div, input, textarea, a {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    color: #3e4546;
+}
+body {
+    background-color: #ededed;
+}
+a {
+    color: #07a2bd;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+p, li, a.pure-button, .pure-button {
+    font-size: .9375em;
+}
+a {
+    font-size: 1em;
+}
+img {
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top:0;
+    margin-bottom: 0;
+}
+h1, .h1-style {
+    font-size: 2.5em; 
+    line-height: 1.17em;
+}
+h2, .h2-style {
+    font-size: 1.875em; /* 30px */
+}
+h3, .h3-style {
+    font-size: 1.25em; /* 20px */
+}
+h4, .h4-style {
+    font-size: .9375em; /* 15px */
+}
+h5, .h5-style {}
+h6, .h6-style {
+    font-size: 1em;
+}
+ul {
+    padding-left: 0;
+}
+ul li {
+    list-style-type: none;
+}
+
+.sub_menu  {visibility: hidden; position: absolute; background: #666769; border: 2px solid #434b4d; padding: 3px 0px 10px 0px; margin-top: 0px; border-top: 16px solid #434b4d; z-index: 3; width: 196px; box-shadow: 0px 2px 10px 0px #434b4d;}
+.sub_menu li {padding: 5px 0;}
+.sub_menu li a {color: #fff; margin: 0 8px;}
+.phone-number {display:inline-block; color:white}
+.phone-number a {display:inline-block; color:white}
+.home-logo-img {float:left;}
+.new-gray-nav {background-color:#434b4d;}
+li.navigation-link {display: inline-block;}
+li.navigation-link a {color: white; margin: 0 12px; font-size: 14px;}
+a.navigation-link {color: white; margin: 0 12px; font-size: .875em;}
+.menu-link {color: white; margin: 0 12px; font-size: .75em; float: left; margin: 4px 10px;}
+.desktop-nav-links{float: right; margin: 10px 11px;}
+#desktop-main-nav, #desktop-floated-main-nav, #mobile-main-nav {height: 47px;}
+#desktop-main-nav img, #desktop-floated-main-nav img, #mobile-main-nav img {margin: 10px 11px;}
+#number_container_1, #number_container_3 {margin-left: 23px;}
+#navMobileIcon.mobile-nav-x {font-size: 2em; margin-top: 0px; margin-bottom:0; font-weight:700;}
+.chat {float: right;}
+.back-arrow {float: left; color: white; margin-left: 18px;}
+
+
+#desktop-floated-main-nav {
+opacity: 0;
+position: fixed;
+display: block;
+width: 100%;
+max-width: inherit;
+z-index: 1;
+-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+visibility:hidden;
+}
+#collapseContent1 {
+display:none;
+-webkit-box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.75);
+}
+#collapseContent1 ul {
+text-align: center;
+font-size: 1.2em;
+padding-bottom: 1em;
+padding-top: .8em;
+}
+#collapseContent1 li {
+padding: .45em;
+}
+.copyrightPatentsContainer {display:none;}
+#navMobileIcon {float: right; margin: 4px 7px; color: white; font-size:1.8em; cursor:pointer;}
+
+#collapseContent1 li.secondary-nav-link {padding:0em;}
+
+#about-us-menu {
+display:none;
+-webkit-box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 2px 10px 0px rgba(0,0,0,0.75);
+}
+#about-us-menu ul {
+text-align: center;
+font-size: 1.2em;
+padding-bottom: 1em;
+padding-top: .8em;
+}
+#about-us-menu li {
+padding: .45em;
+}
+.copyrightPatentsContainer {display:none;}
+#navMobileIcon {float: right; margin: 4px 7px; color: white; font-size:1.8em; cursor:pointer;}
+
+#about-us-menu li.secondary-nav-link {padding:0em;}
+
+#desktop-floated-main-nav.desktop-floated-nav {position: fixed;
+position: fixed;
+z-index: 5;
+width: 100%;
+top: 0;
+transition: top 0.5s ease;
+opacity: 1;
+visibility: visible;
+top: 0;
+}
+#desktop-floated-main-nav.hidden-floated-nav {
+top: -47px;
+transition: top 0.5s ease, opacity .5s ease;
+opacity: 0;
+}
+
+
+@media only screen and (max-width:52.99em) {
+    #desktop-main-nav {display:none;}
+
+    #mobile-main-nav {position:fixed; z-index:5; width: 100%;-webkit-box-shadow: 0px 8px 20px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 8px 20px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 8px 20px -10px rgba(0,0,0,0.75);
+    }
+    .desktop-nav-links {display:none;}
+    .container-update {padding-top: 47px}
+}
+@media only screen and (min-width:53em) {
+    #mobile-main-nav {display:none;}
+    #desktop-floated-main-nav.desktop-floated-nav {max-width: inherit;}
+}
